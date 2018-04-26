@@ -1,0 +1,41 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+body {
+    color: $primary;
+    background: $secondary url(../assets/graphics/texture.jpg);
+    font-family: 'LatoWeb', 'OpenSansRegular', Arial, sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: 0 auto 30px auto;
+
+    h1 {
+        text-align: center;
+    }
+
+    .btn {
+        text-align: center;
+        display: block;
+    }
+}
+
+section {
+    display: none;
+}
+
+pre {
+    background-color: black;
+    color: white;
+    border: 1px solid $primary;
+    padding: 10px;
+}
+
+.d-block {
+    display: block;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack Starter</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-header">
+            <button class="nav-button" data-id="home-section">Home</button>
+            <div class="nav-right">
+                <button class="nav-button" data-id="about-section">About</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="home-section">
+            <h1>Webpack Starter</h1>
+            <img src="assets/graphics/webpack.png" alt="Webpack img"/>
+        </section>
+        <section id="about-section">
+            <h1>About</h1>
+            <h2>Webpack starter kit</h2>
+            <div>This is a starter kit for webpack 3 inspired by wonderful <a href="https://github.com/bradtraversy/babel_webpack_starter">Brad Traversy</a>.</div>
+            <h3>Usage</h3>
+            <pre><code class="language-pascal">$ npm install
+$ npm start</code></pre>
+            <h3>What's included?</h3>
+            <ul>
+                <li>babel</li>
+                <li>sass</li>
+                <li>postcss</li>
+                <li>autoprefixer</li>
+                <li>Font Awesome Free, Lato and Open Sans fonts</li>
+                <li>simple web page scaffold</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <div class="brand-footer">
+                <button class="nav-button" data-id="home-section" onclick="showSection(event)"><i class="fa fa-3x fa-home"></i></button>
+            </div>
+            <div class="nav-footer-links">
+                <button class="nav-button d-block" data-id="about-section" onclick="showSection(event)"><i class="fa fa-info-circle"></i> About</button>
+            </div>
+            <div class="copy-box">
+                <i class="fa fa-copyright"></i>  2018 Robert Górnicki
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
